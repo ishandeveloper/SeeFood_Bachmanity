@@ -1,7 +1,10 @@
 import tensorflow.keras
 from PIL import Image
+from time import sleep
 import numpy as np
-
+import warnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
+import webbrowser
 
 import cv2
 
@@ -32,6 +35,7 @@ while True:
 cam.release()
 
 cv2.destroyAllWindows()
+
 
 # Disable scientific notation for clarity
 np.set_printoptions(suppress=True)
@@ -64,8 +68,21 @@ data[0] = normalized_image_array
 prediction = model.predict(data)*100
 print(prediction)
 #print(prediction.size)
-if(prediction[0][0]>75):
+
+
+if(prediction[0][0]>25 and prediction[0][1]>25):
+    sleep(3)
+    webbrowser.open('applebanana.html')
+elif(prediction[0][0]>40):
     print("Apple")
-elif(prediction[0][1]>75):
-    print("Mango")
+    sleep(3)
+    webbrowser.open('apple.html')
+   
+elif(prediction[0][1]>40):
+    print("Banana")
+    sleep(3)
+    webbrowser.open('banana.html')
+    
+    
+
 
