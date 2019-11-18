@@ -7,12 +7,12 @@
 
 #The rec.studio app includes the Invision protoype file
 
-#Website
+# Website
 
 As the name suggests, the website folder contains the files for the website for introduction to our prototype.
 simply open index.html in any web browser to experience the website
 
-#recipe-web-app
+# recipe-web-app
 
 Available scripts 
 
@@ -27,15 +27,15 @@ Available scripts
 	You will also see any lint errors in the console.
 
 
-#nutrition-wolfram-app
+# nutrition-wolfram-app
 
 	#simply open index.html in any web browser to experience the webapp and then choose any image file whose nutritional data you want to find.
 
-#ml_models_image_detection
+# ml_models_image_detection
 	
 	install opencv and tensorflow on raspberry pi and execute the code
   
-#TECHNOLOGY STACK
+# TECHNOLOGY STACK
 
 #GOOGLE TENSORFLOW
 #REACT
