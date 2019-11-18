@@ -9,8 +9,8 @@
 
 #Website
 
-		#As the name suggests, the website folder contains the files for the website for introduction to our prototype.
-		#simply open index.html in any web browser to experience the website
+As the name suggests, the website folder contains the files for the website for introduction to our prototype.
+simply open index.html in any web browser to experience the website
 
 #recipe-web-app
 
